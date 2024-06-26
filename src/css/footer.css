@@ -1,3 +1,89 @@
 .footer {
     
 }
+
+.footer-container {
+    padding: 28px 28px 40px;
+    border-radius: 30px;
+    background-color: #0C0C0C;
+    width: 100%;
+}
+
+.footer-logo {
+font-family: "Gilroy", sans-serif;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+}
+
+.footer-first-block {
+}
+
+.footer-logo-soc-block{
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 20px;
+}
+
+
+.footer-soc-block {
+    display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 10px;
+}
+
+.footer-soc-btn {
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 10px;
+width: 34px;
+height: 34px;
+padding: 8px;
+}
+
+.footer-icons {
+    fill: #fbfbfb;
+}
+
+.footer-tel-btn {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+border-radius: 16px;
+width: 152px;
+height: 44px;
+padding: 14px 20px;
+}
+
+.footer-tel {
+    font-family: "Gilroy", sans-serif;
+font-weight: 500;
+font-size: 12px; 
+line-height: 1.33;
+text-transform: uppercase;
+text-align: center;
+color: #fbfbfb;
+}
+
+.footer-slogan {
+}
+
+.footer-second-block {
+}
+
+.footer-nav-list {
+}
+
+.footer-nav-link {
+}
+
+.footer-address {
+}
+
+.footer-bottom-border {
+}
+
+.footer-grey-text {
+}
