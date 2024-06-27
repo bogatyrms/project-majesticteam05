@@ -62,13 +62,14 @@ color: #0c0c0c;
 margin-bottom: 40px;
 }
 .reviews-list {
-    flex-direction: row;
+flex-direction: row;
 display: flex;
 gap: 20px;
 justify-content: center;
 }
 
 .reviews-item {
+    max-width: 370px;
     background-color: #f3f3f3;
     display: block;
     padding: 84px 0;
@@ -108,6 +109,8 @@ justify-content: center;
     line-height: 1.25;
     letter-spacing: -0.02em;
     text-align: center;
+    padding-left: 36px;
+    padding-right: 36px;
     color: rgba(12, 12, 12, 0.4);
 }
 @media screen and (min-width: 375px) {
@@ -155,4 +158,5 @@ padding-bottom: 60px;
         flex-direction: row;
         gap: 20px;
     }
+
 }
