@@ -76,13 +76,12 @@ justify-content: center;
 }
 
 .reviews-image {
-max-width: 100%;
-    display: flex;
-    position: relative;
-    border-radius: 100%;
-    stroke-width: 2px;
-    stroke: #fbfbfb;
 border-radius: 100%;
+stroke-width: 2px;
+stroke: #fbfbfb;
+max-width: 100%;
+display: flex;
+position: relative;
 justify-content: center;
 }
 
