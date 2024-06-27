@@ -2,3 +2,155 @@
     
 }
 
+
+.header-container {
+    max-width: 320px;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+
+.header-logo {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    padding: 27px 0;
+}
+
+
+
+.open-menu-btn {
+    min-width: 34px;
+    min-height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    line-height: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.open-menu-icon {
+    fill: #0c0c0c;
+}
+
+/*@media screen and (max-width: 374px) {
+    .container {
+        max-width: 375px;
+    }
+}*/
+
+/*@media screen and (min-width: 375px) and  (max-width: 767px){
+    .container {
+        width: 375px;
+    }
+}*/
+
+
+@media screen and (max-width: 1279px) {
+    .header-menu-list {
+        display: none;
+    } 
+
+    .header-social-list {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .header-container {
+        width: 768px;
+    }
+    
+    .header-logo {
+        font-size: 20px;
+        padding: 34px 0;
+    }
+
+    .open-menu-btn {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+  
+
+    .header-container {
+        width: 1152px;
+        flex-wrap: nowrap;
+        width: calc((100% - 406px) / 3);
+    }
+
+    .header-div {
+        display: flex;
+        justify-content: space-between;
+        
+
+    }
+
+    .open-menu-btn {
+        display: none;
+    }
+
+    .header-logo {
+        padding: 32px 0;
+    
+    }
+
+    .header-navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-menu-link {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    text-align: center;
+    color: #0c0c0c;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    position: relative;
+    white-space: nowrap;
+    }
+
+    .header-menu-list {
+        display: flex;
+        gap: 40px;
+    }
+    
+    
+    
+    .header-social-item {
+        display: flex;
+        width: 36px;
+        height: 36px;
+    }
+    
+    .header-social-list {
+        display: flex;
+        gap:10px;
+        width: 128px;
+        align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    }
+
+    .header-social-link {
+        border: 1px solid rgba(12, 12, 12, 0.1);
+        border-radius: 10px;
+        padding: 8px;
+    }
+}
