@@ -62,11 +62,15 @@
     text-align: left;
     text-decoration: underline;
 }
+.hero-link:hover {
+    color:#3350E9;
+}
 
 .hero-image {
     border-radius: 30px;
     margin-bottom: 60px;
 }
+
 @media screen and (min-width: 768px) {
     .container {
         min-width: 768px;   
