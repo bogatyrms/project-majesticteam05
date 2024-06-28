@@ -51,9 +51,10 @@ height: 100%;
 background-color: #0c0c0c ;
 background-image: linear-gradient(rgba(12, 12, 12, 0.92),rgba(12, 12, 12, 0.92)),url(../img/header-mob@1x.jpg);
 background-repeat: no-repeat;
-/*padding: 240px 64px 40px 63px;*/
+padding: 240px 64px 40px 63px;
 display: flex;
 flex-direction: column;
+justify-content: space-between;
 top: 0;
 overflow: auto;
 
@@ -61,6 +62,7 @@ overflow: auto;
 
 .mob-menu-navigation {
     display: flex;
+    justify-content: center;
 }
 
 .mob-menu-list {
@@ -78,11 +80,12 @@ overflow: auto;
 }
 
 .close-menu-btn {
-    margin-left: auto;
-    margin-top: 20px;
+    position: absolute;
+   right: 20px;
+    top: 20px;
     width: 34px;
     height: 34px;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -116,10 +119,10 @@ color: #fbfbfb;
 
 .mob-social-list {
     display: flex;
-    gap:10px;
+    gap: 10px;
     width: 122px;
     align-items: center;
-justify-content: center;
+justify-content:space-between;
 flex-direction: row;
 
 }
@@ -141,7 +144,7 @@ opacity: 0.8;
     padding: 8px;
 }
 
-.mob-menu-position {
+.mob-menu-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -150,7 +153,9 @@ opacity: 0.8;
 
 .mob-social {
     display: flex;
-    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
