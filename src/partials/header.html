@@ -1,11 +1,16 @@
 <header class="header">
    
-    <div class="header-div">
+
         <div class="container header-container">
             <nav class="header-navigation">
                 <a class="header-logo" href="./index.html">watchcharm</a>
                 <ul class="header-menu-list">
                     <li><a class="header-menu-link" href="">Home</a></li>
+                    <a class="header-menu-svg">
+                        <svg class="header-link-icon" width="8" height="8">
+                            <use href="./img/icons.svg#icon-for-header"></use>
+                        </svg>
+                    </a>
                     <li><a class="header-menu-link" href="">About Us</a></li>
                     <li><a class="header-menu-link" href="">Catalog</a></li>
                     <li><a class="header-menu-link" href="">Sale</a></li>
@@ -38,32 +43,30 @@
                     </li>
                 </ul>
             </div>
+            <button type="button" class="open-menu-btn">
+                <svg  class="open-menu-icon" width="34" height="34">
+                    <use href="./img/icons.svg#icon-burger"></use>
+                </svg>
+            </button>
         </div>
-    </div>
-    <button type="button" class="open-menu-btn">
-        <svg  class="open-menu-icon" width="34" height="34">
-            <use href="../img/icons.svg#icon-burger"></use>
-        </svg>
-    </button>
- <div class="header-mob-menu">
-    <div>
-        <button type="button" class="close-menu-btn">
-            <svg class="close-menu-icon" width="34" height="34" >
-                <use href="../img/icons.svg#icon-close"></use>
-            </svg>
-        </button>
-        <nav class="mob-menu-navigation">
-            <ul class="mob-menu-list">
-                <li><a class="mob-menu-link" href="">Home</a></li>
-                <li><a class="mob-menu-link" href="">About Us</a></li>
-                <li><a class="mob-menu-link" href="">Catalog</a></li>
-                <li><a class="mob-menu-link" href="">Sale</a></li>
-                <li><a class="mob-menu-link" href="">Reviews</a></li>
-                <li><a class="mob-menu-link" href="">Contact Us</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="mob-social">
+        <div class="header-mob-menu">
+    <button type="button" class="close-menu-btn">
+                <svg class="close-menu-icon" width="34" height="34" >
+                    <use href="./img/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <div class="mob-menu-position">
+            <nav class="mob-menu-navigation">
+                <ul class="mob-menu-list">
+                    <li><a class="mob-menu-link" href="">Home</a></li>
+                    <li><a class="mob-menu-link" href="">About Us</a></li>
+                    <li><a class="mob-menu-link" href="">Catalog</a></li>
+                    <li><a class="mob-menu-link" href="">Sale</a></li>
+                    <li><a class="mob-menu-link" href="">Reviews</a></li>
+                    <li><a class="mob-menu-link" href="">Contact Us</a></li>
+                </ul>
+            </nav>
+       <div class="mob-social">
         <ul class="mob-social-list">
             <li class="mob-social-item">
                 <a class="mob-social-link" href="https://www.facebook.com/goITclub/" target="_blank" rel="noopener noreferrer">
@@ -88,5 +91,6 @@
             </li>
         </ul>
     </div>
-
+</div>
+</div>
 </header>
