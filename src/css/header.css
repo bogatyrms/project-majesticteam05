@@ -1,5 +1,6 @@
 .header {
-    
+    stroke-width: 1px;
+    stroke: rgba(12, 12, 12, 0.1); 
 }
 
 
@@ -72,6 +73,8 @@ overflow: auto;
 }
 
 
+
+
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx), (min-resolution: 192dpi) {
     .header-mob-menu {
@@ -109,6 +112,18 @@ font-size: 14px;
 line-height: 1.28;
 text-align: center;
 color: #fbfbfb;
+position: relative;
+}
+
+.mob-current::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: calc(50% - 4px);
+    bottom: -12px;
+    background-color: #3350e9;
+    border-radius: 4px;
 }
 
 .mob-social-item {
@@ -279,12 +294,22 @@ opacity: 0.8;
     padding-top: 30px;
     padding-bottom: 40px;
     position: relative;
-    white-space: nowrap;
     }
 
     .header-menu-list {
         display: flex;
         gap: 40px;
+    }
+
+    .header-current:hover::after {
+        content: "";
+        width: 8px;
+        height: 8px;
+        position: absolute;
+        left: calc(50% - 4px);
+        bottom: -1px;
+        background-color: #3350e9;
+        border-radius: 4px;
     }
     
     
@@ -335,15 +360,11 @@ opacity: 0.8;
         fill: #3350e9;
     }
 
-   /* .current::after {
-        content: "";
-        width: 8px;
-        height: 8px;
-        position: absolute;
-        left: calc(50% - 4px);
-        bottom: -1px;
-        border-radius: 4px;
-        background-color: #3350E9;
+   
+}
 
-    }*/
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
