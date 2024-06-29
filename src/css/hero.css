@@ -13,6 +13,9 @@
     color: #3350E9;
 
 }
+.hero-box {
+    margin-bottom: 28px;
+}
 .hero-text {
     font-family: Gilroy;
     font-weight: 500;
@@ -20,12 +23,10 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
-    margin-bottom: 28px;
     padding-bottom: 28px;
 }  
 .hero-wrap {
     display: flex;
-    margin-bottom: 28px;
     position: relative;
     max-width: 335px;
     height: 44px;
@@ -46,11 +47,11 @@
 }
 
 .hero-icon:nth-child(2) {
-    left: 10%;
+    left: 32px;
 }
 
 .hero-icon:nth-child(3) {
-    left: 20%;
+    left: 64px;
 }
 
 .hero-link {
@@ -69,6 +70,7 @@
 .hero-image {
     border-radius: 30px;
     margin-bottom: 60px;
+    background-color: rgba(12, 12, 12, 0.2);
 }
 
 @media screen and (min-width: 768px) {
@@ -81,6 +83,7 @@
     .hero-box {
         display: flex;
         gap: 11px;
+        margin-bottom: 40px;
     }
     .hero-title {
         padding-top: 80px;
@@ -123,6 +126,9 @@
         font-size: 20px;
         line-height: 20px;
         display: block;
+    }
+    .hero-image {
+        border-radius: 50px;
     } 
     
     @media screen and (min-width: 1280px) {
