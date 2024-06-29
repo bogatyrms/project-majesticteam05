@@ -36,8 +36,8 @@ align-items: center;
 
 .reviews-image {
 border-radius: 100%;
-    stroke-width: 2px;
-    stroke: #fbfbfb;
+        stroke-width: 2px;
+        stroke: #fbfbfb;
 max-width: 100%;
 display: flex;
 position: relative;
