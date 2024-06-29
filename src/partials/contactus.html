@@ -1,14 +1,15 @@
 <section class="contactus">
-  <div class="container section-contactus">
+  <div class="container ">
     <h2 class="contactus-title">Contact Us</h2>
+<div class="section-contactus">
     <div class="contactus-form">
-      <p>
+      <p class="contactus-text">
         Please use the form below to contact us. Enter your name, email, phone,
         and message and we'll get back to you shortly.
       </p>
 
-      <form>
-        <div class="review-form-field-wrapper">
+      <form class="review-form">
+        <div class="">
           <div class="review-form-input-wrapper">
             <input
               type="text"
@@ -52,24 +53,26 @@
           class="review-form-field-wrapper review-form-field-wrapper-comment"
         >
           <textarea
-            class="review-form-comment"
+            class="review-form-input review-form-comment"
             id="user-comment"
             name="user-comment"
             placeholder="Comment"
           ></textarea>
         </div>
 
-        <button class="review-form-submit" type="submit">Send</button>
       </form>
+      <button class="review-form-submit" type="submit">Send</button>
+
     </div>
 
-    <div class="contactus-img">
-      <img
-        src="../img/contactus-mob@1x.jpg"
-        alt="watches"
-        width="335"
-        height="512"
-      />
+    <div class="contactus-foto">
+      <picture>
+        <source media="(min-width:768px)" srcset="../img/contactus-tab@1x.jpg 1x, ../img/contactus-tab@2x.jpg 2x">
+        <source media="(min-width:1158px)" srcset="../img/contactus-desk@1x.jpg 1x, ../img/contactus-desk@2x.jpg 2x">
+        <source media="(max-width:767px)" srcset="../img/contactus-mob@1x.jpg 1x, ../img/contactus-mob@2x.jpg 2x" >
+        <img class="contactus-img" src="../img/contactus-desk@1x.jpg" alt="Watches"/>
+   </picture>
     </div>
+  </div>
   </div>
 </section>
