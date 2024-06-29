@@ -16,6 +16,9 @@
 .hero-box {
     margin-bottom: 28px;
 }
+.hero-content-wrap {
+    margin-bottom: 28px;
+}
 .hero-text {
     font-family: Gilroy;
     font-weight: 500;
@@ -23,7 +26,6 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
-    padding-bottom: 28px;
 }  
 .hero-wrap {
     display: flex;
@@ -84,6 +86,9 @@
         display: flex;
         gap: 11px;
         margin-bottom: 40px;
+    }
+    .hero-content-wrap {
+        margin: 0;
     }
     .hero-title {
         padding-top: 80px;
