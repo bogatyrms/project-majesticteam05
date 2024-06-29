@@ -1,3 +1,42 @@
-.aboutus {
-    
+
+
+.text-block-aboutus{
+border-radius: 30px;
+width: 335px;
+height: 446px;
+background: #f3f3f3;
 }
+
+
+.headline-aboutus{
+    font-family: "Gilroy", sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+}
+
+.ul-para-aboutus{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.para-aboutus{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+        color: rgba(12, 12, 12, 0.7);
+}
+
+.btn-aboutus{
+    border-radius: 16px;
+        width: 160px;
+        height: 48px;
+    background: #3350e9;
+}
+
+
+
