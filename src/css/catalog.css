@@ -35,7 +35,7 @@
 
 .catalog-img {
   margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 28px;
 }
 
 .catalog-name {
@@ -134,7 +134,7 @@
   }
 
   .hidden-img {
-    display: inline-block;
+    display: block;
   }
 
   .catalog-list-item {
@@ -143,8 +143,8 @@
     padding-left: 32px;
     padding-right: 32px;
     width: calc((100% - 16px) / 2);
-    max-width: 344px;
-    max-height: 414px;
+    /* max-width: 344px;
+    max-height: 414px; */
   }
 
   .catalog-name {
