@@ -29,8 +29,6 @@
     width: calc((100% - 15px) / 4);
 }
 
-
-
 .sale-watch-img {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
@@ -134,8 +132,6 @@
 
 
 
-
-
 @media screen and (min-width: 768px) {
     .sale {
         margin-bottom: 80px;
@@ -235,7 +231,6 @@
 
 
 
-
 @media screen and (min-width: 1280px) {
     .sale {
         margin-bottom: 100px;
@@ -252,11 +247,11 @@
     }
 
     .sale-description-box {
-            max-width: 530px;
-            padding: 60px;
-            margin-top: 40px;
-            margin-left: 40px;
-            margin-top: 0;
-            height: 558px;
+        max-width: 530px;
+        padding: 60px;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-top: 0;
+        height: 558px;
     }
 }

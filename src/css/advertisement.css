@@ -118,3 +118,11 @@ screen and (min-resolution: 2dppx) {
         right: 80px;
     }
 }
+
+.advertisement-button:hover,
+.advertisement-button:focus {
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    background: #fbfbfb;
+    color: #0c0c0c;
+}
