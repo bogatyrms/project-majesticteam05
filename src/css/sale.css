@@ -1,14 +1,6 @@
-
-
 .sale {
     margin-bottom: 60px;
 }
-
-.container {}
-
-
-
-
 
 .sale-title {
     font-weight: 600;
@@ -149,10 +141,6 @@
         margin-bottom: 80px;
     }
 
-        .sale-img-watch-box {   
-        }
-
-
     .container {
         max-width: 768px;
         padding-left: 32px;
@@ -246,8 +234,6 @@
 }
 
 
-
-/* qqqq */
 
 
 @media screen and (min-width: 1280px) {
