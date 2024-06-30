@@ -115,7 +115,7 @@ max-height: 556px;
 }
 }
 
-@media screen and (min-width:1158px) {
+@media screen and (min-width: 1158px) {
   
     .section-contactus {
         display: flex;
