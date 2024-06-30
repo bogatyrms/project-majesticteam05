@@ -175,11 +175,12 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0 32px;
+  
   }
 
   .footer-bottom {
     padding-bottom: 32px;
+      padding: 0 32px;
   }
 
   .footer-container {
