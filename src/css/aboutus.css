@@ -57,6 +57,11 @@ margin-bottom: 20px;
         border: none;
 }
 
+.btn-aboutus:hover,
+.btn-aboutus:focus{
+    background: #1f3cd4;
+}
+
 .picture-block-aboutus{
     background: rgba(12, 12, 12, 0.2);
     border-radius: 30px;
@@ -110,7 +115,7 @@ margin-bottom: 20px;
 }
 
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1280px) {
 
     .text-block-aboutus{
         width: 580px;
