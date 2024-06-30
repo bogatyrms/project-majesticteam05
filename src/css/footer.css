@@ -58,6 +58,8 @@
 
 .footer-icons {
   fill: #fbfbfb;
+  opacity: 0.8;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-tel-btn {
@@ -195,6 +197,16 @@
     height: 36px;
   }
 
+  .footer-icons {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-icons:hover,
+  .footer-icons:focus {
+    opacity: 1;
+  }
+
   .footer-first-block {
     display: flex;
     justify-content: space-between;
@@ -218,69 +230,67 @@
     width: 524px;
     margin-left: auto;
     margin-right: auto;
- }
- .footer-logo-soc-block {
+  }
+  .footer-logo-soc-block {
     margin-bottom: 0;
- }
- .footer-second-block {
+  }
+  .footer-second-block {
     justify-content: space-between;
     margin-bottom: 28px;
- }
- .footer-nav-list {
+  }
+  .footer-nav-list {
     align-items: flex-end;
-justify-content: flex-start;
+    justify-content: flex-start;
     flex-wrap: nowrap;
     gap: 19px;
     width: 400px;
- }
+  }
 
-.footer-address {
+  .footer-address {
     width: 162px;
-font-size: 14px;
-line-height: 1.28;
-}
-
-.footer-nav-link {
     font-size: 14px;
-line-height: 1.28;
-}
+    line-height: 1.28;
+  }
 
-.footer-grey-text {
+  .footer-nav-link {
     font-size: 14px;
-line-height: 1.28;
-}
-.third-footer-block {
+    line-height: 1.28;
+  }
+
+  .footer-grey-text {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+  .third-footer-block {
     align-items: baseline;
     justify-content: space-between;
     flex-direction: row;
-}
-.footer-bottom-border {
-    margin-bottom: 28px;
-}
-.footer-container {
-    height: auto;
-}
   }
+  .footer-bottom-border {
+    margin-bottom: 28px;
+  }
+  .footer-container {
+    height: auto;
+  }
+}
 
 @media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 32px;
+  }
 
-    .container {
-        max-width: 1280px;
-        /* padding: 0 32px; */
-      }
+  .footer-container {
+    width: 100%;
+    padding: 40px 40px 28px;
+    position: relative;
+  }
 
-      .footer-container {
-        width: 100%;
-        padding: 40px 40px 28px;
-        position: relative;
-      }
-
-
-      .footer-slogan {
-position: absolute;
-top: 40px;
-left: 50%;
-transform: translate(-50%);
-margin-bottom: 126px;
-      }
+  .footer-slogan {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 126px;
+  }
 }
