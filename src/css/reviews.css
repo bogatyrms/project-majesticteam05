@@ -1,7 +1,7 @@
-.container {
+/* .container {
     padding-left: 20px;
     padding-right: 20px;
-}
+} */
 
 .reviews {
     background-color: #fbfbfb;
@@ -79,7 +79,7 @@ justify-content: center;
     margin: 0 auto;
 }
 .section {
-    padding-top: 60px;
+    /* padding-top: 60px; */
     padding-bottom: 60px;
 }
 .reviews-title {
@@ -131,4 +131,29 @@ gap: 20px;
 .reviews-item:nth-child(3) {
     display: block;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 375px) {
+    .reviews-item {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .reviews-text {
+        padding: 0;
+    }
 }

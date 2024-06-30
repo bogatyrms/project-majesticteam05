@@ -7,10 +7,8 @@
 .header-container {
     max-width: 320px;
     display: flex;
-align-items: center;
-justify-content: space-between;
-
-
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -384,9 +382,41 @@ opacity: 0.8;
 }
 
 .is-open {
-    opacity: 1;
+    opacity: 0;
     visibility: visible;
     pointer-events: auto;
     transform: translate(0);
     transition: transform .35s cubic-bezier(.4,0,.2,1);
+    pointer-events: none;
+}
+
+
+.header-container {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .header-container {
+        padding: 26px;
+        margin-left: 25px;
+    }
 }
