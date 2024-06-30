@@ -75,9 +75,11 @@ margin-bottom: 20px;
 .picture-aboutus{
     display: flex;
     flex-wrap: wrap;
-    border-radius: 50px;
 }
 
+.img-aboutus{
+border-radius: 30px;
+}
 
 @media screen and (min-width:768px){
     .text-block-aboutus{
