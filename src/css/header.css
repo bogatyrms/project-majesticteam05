@@ -420,3 +420,16 @@ opacity: 0.8;
         margin-left: 25px;
     }
 }
+
+
+
+@media (min-width: 1280px) {
+    .header-social-list {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .header-container {
+        padding: 0;
+    }
+}

@@ -274,4 +274,8 @@
         padding-top: 0;
         padding-bottom: 0;
     }
+
+    .sale-container {
+        max-width: 704px;
+    }
 }

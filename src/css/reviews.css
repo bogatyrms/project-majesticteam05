@@ -192,4 +192,8 @@ gap: 20px;
         font-size: 48px;
         margin-bottom: 40px;
     }
+
+    .section {
+        max-width: 704px;
+    }
 }
