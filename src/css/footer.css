@@ -320,7 +320,13 @@
 
 
 
-
+/* @media (min-width: 375px) {
+  .footer-container {
+    min-width: 335px;
+    max-width: 335px;
+    margin: auto 0;
+  }
+}
 
 @media (min-width: 768px) {
   .footer-container {
@@ -333,4 +339,4 @@
   .footer-container {
     min-width: 1280px;
     max-width: 1280px;
-}
+} */

@@ -77,10 +77,15 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        min-width: 768px;   
+        min-width: 768px;
+        padding-right: 0;
+        padding-left: 0;   
     }
     .hero-container {
         padding: 0 32px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     .hero-box {
         display: flex;
@@ -119,12 +124,12 @@
     }
 
     .hero-icon:nth-child(2) {
-    top: 0;
-    left: 40px;
+        top: 0;
+        left: 40px;
     }
     .hero-icon:nth-child(3) {
-       top: 0;
-       left: 80px;
+        top: 0;
+        left: 80px;
     }
     
     .hero-link {
@@ -134,6 +139,8 @@
     }
     .hero-image {
         border-radius: 50px;
+        /* width: 100%; */
+        /* height: auto; */
     } 
 }
 
@@ -159,6 +166,22 @@
     } 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 768px) {
     .hero {
         padding-bottom: 0;
@@ -166,6 +189,16 @@
 
     .hero-image {
         margin-bottom: 80px;
+    }
+
+    .hero-box {
+        min-width: 704px;
+        max-width: 704px;
+    }
+
+    .hero-pic {
+        min-width: 704px;
+        max-width: 704px;
     }
 }
 
