@@ -270,7 +270,8 @@
   }
 
     .catalog-list {
-      max-width: 1280px;
+      max-width: 1150px;
+      min-width: 1150px;
     }
 
     .catalog-img {

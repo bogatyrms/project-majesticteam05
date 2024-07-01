@@ -93,39 +93,43 @@ justify-content: center;
 }
 } 
 @media screen and (min-width: 768px) {
-.container {
-max-width: 768px;
-}
-section {
-padding-top: 80px;
-padding-bottom: 80px;
-}
-.reviews-item:nth-child(1) {
-    display: block;
-}
-.reviews-item:nth-child(2) {
-    display: block;
-}
+    .container {
+        max-width: 768px;
+    }
+    
+    .section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .reviews-item:nth-child(1) {
+        display: block;
+    }
+    .reviews-item:nth-child(2) {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 1280px) {
-.container {
-max-width: 1280px;
-}
+    .container {
+        max-width: 1280px;
+    }
 
-.reviews-list {
-flex-direction: row;
-gap: 20px;
-}
-.reviews-item:nth-child(1) {
-    display: block;
-}
-.reviews-item:nth-child(2) {
-    display: block;
-}
-.reviews-item:nth-child(3) {
-    display: block;
-}
+    .reviews-list {
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .reviews-item:nth-child(1) {
+        display: block;
+    }
+    
+    .reviews-item:nth-child(2) {
+        display: block;
+    }
+
+    .reviews-item:nth-child(3) {
+        display: block;
+    }
 }
 
 
