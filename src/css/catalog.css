@@ -264,7 +264,23 @@
   }
 }
 
+@media (min-width: 1280px) {
+  .container-catalog {
+    max-width: 1280px;
+  }
 
+    .catalog-list {
+      max-width: 1280px;
+    }
+
+    .catalog-img {
+      max-width: 292px;
+    }
+
+    .catalog-list-item {
+      min-width: 368px;
+    }
+}
 
 
 

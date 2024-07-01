@@ -432,4 +432,8 @@ opacity: 0.8;
     .header-container {
         padding: 0;
     }
+
+    .hero-box {
+        max-width: 1150px;
+    }
 }

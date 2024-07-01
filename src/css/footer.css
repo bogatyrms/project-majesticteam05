@@ -328,3 +328,9 @@
     max-width: 704px;
   }
 }
+
+@media (min-width: 1280px) {}
+  .footer-container {
+    min-width: 1280px;
+    max-width: 1280px;
+}
