@@ -294,3 +294,37 @@
     margin-bottom: 126px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .footer-container {
+    min-width: 704px;
+    max-width: 704px;
+  }
+}

@@ -157,3 +157,39 @@ gap: 20px;
         padding: 0;
     }
 }
+
+@media (min-width: 768px) {
+    .section {
+        padding: 0;
+        margin-bottom: 80px;
+    }
+
+    .reviews-item {
+        padding: 32px 36px;
+        /* max-width: 344px;
+        min-width: 344px; */
+        max-height: 272px;
+        min-height: 272px;
+    }
+
+    .reviews-text {
+        max-width: 272px;
+        min-width: 272px;
+        padding: 0 10px;
+    }
+
+    .reviews-subtitle {
+        padding-top: 24px;
+    }
+
+    .reviews-list {
+        justify-content: start;
+        width: calc((100% - 32px) / 3);
+        gap: 16px;
+    }
+
+    .reviews-title {
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+}

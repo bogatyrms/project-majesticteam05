@@ -91,7 +91,7 @@
         margin: 0;
     }
     .hero-title {
-        padding-top: 80px;
+        padding-top: 0px;
         line-height: 60px;
         font-size: 70px;
         max-width: 557px;
@@ -135,7 +135,8 @@
     .hero-image {
         border-radius: 50px;
     } 
-    
+}
+
     @media screen and (min-width: 1280px) {
         .container {
             min-width: 1280px;   
@@ -155,8 +156,18 @@
             width: 146px;
             height: 269px;
         }
+    } 
+
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding-bottom: 0;
     }
-} 
+
+    .hero-image {
+        margin-bottom: 80px;
+    }
+}
 
     
 

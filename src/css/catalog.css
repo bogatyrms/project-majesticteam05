@@ -233,24 +233,47 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 375px) {
   .catalog-img {
     margin-left: 35px;
     margin-right: 36px;
-    margin-top: 18px;
+    /* margin-top: 18px; */
   }
 }
+
+
+
+
+
+@media (min-width: 768px) {
+  .catalog {
+    padding-top: 0;
+  }
+  .catalog-img {
+    /* margin: 34px 38px 20px; */
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .catalog-list-item {
+    max-width: 344px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

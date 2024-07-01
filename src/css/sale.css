@@ -255,3 +255,23 @@
         height: 558px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .sale {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
