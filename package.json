@@ -1,11 +1,11 @@
 {
-  "name": "project-majesticteam05",
+  "name": "project-majesticteam5",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-majesticteam05/",
+    "build": "vite build --base=/project-majesticteam5/",
     "preview": "vite preview"
   },
   "devDependencies": {
